@@ -1,6 +1,6 @@
 # MLMD-news
 
-Under review, will upload later
+Under review, the complete dataset will be uploaded later
 
 
 ## Dependency
