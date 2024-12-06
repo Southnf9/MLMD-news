@@ -7,13 +7,12 @@ Under review, will upload later
 ![项目截图](path/to/your/screenshot.png)
 
 ## Dependency
-    ```bash
+
     conda create -n ebeg python=3.9.6
     conda activate ebeg 
     conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=11.1 -c pytorch -c conda-forge
-    ```
+
 ## Preprocess data
-    ```bash
     python preprocess_data.py --task train
     python preprocess_data.py --task test
     python preprocess_data.py --task val
@@ -21,15 +20,12 @@ Under review, will upload later
     python ./script/calw2sTFIDF.py --data_path ../data/MLMDNews/train.label.jsonl
     python ./script/calw2sTFIDF.py --data_path ../data/MLMDNews/test.label.jsonl
     python ./script/calw2sTFIDF.py --data_path ../data/MLMDNews/val.label.jsonl
-    ```
 
 ## Get contextualized embeddings
-    ```bash
     python feature_extraction.py  --data ./data/MLMDNews/train.label.jsonl
     python feature_extraction.py  --data ./data/MLMDNews/test.label.jsonl
     python feature_extraction.py  --data ./data/MLMDNews/val.label.jsonl
-    ```
 
-## 项目结构
+
 
 
