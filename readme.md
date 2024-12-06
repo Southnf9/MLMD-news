@@ -8,6 +8,7 @@ Under review, will upload later
     conda create -n ebeg python=3.9.6
     conda activate ebeg 
     conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=11.1 -c pytorch -c conda-forge
+    pip install requirements.txt
 
 ## Preprocess data
     python preprocess_data.py --task train
