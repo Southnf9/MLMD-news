@@ -30,5 +30,5 @@ Under review, will upload later
     python train.py
 
 ## Note
-To use ROUGE evaluation, you need to download the [ROUGE-1.5.5](https://github.com/andersjo/pyrouge/tree/master/tools/ROUGE-1.5.5) package and place it in the utils folder, then use pyrouge.
+To use ROUGE evaluation, you need to download the [ROUGE-1.5.5](https://github.com/andersjo/pyrouge/tree/master/tools/ROUGE-1.5.5) package and place it in the utils folder, then use pyrouge.\n
 Error Handling: If you encounter the error message Cannot open exception db file for reading: /path/to/ROUGE-1.5.5/data/WordNet-2.0.exc.db when using pyrouge, the problem can be solved from [here](https://github.com/tagucci/pythonrouge#error-handling).
