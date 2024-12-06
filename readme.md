@@ -11,7 +11,7 @@ Under review, will upload later
     pip install -r requirements.txt
 
 ## Preprocess data
-Put the train, test, and val files in the MLMDS dataset into the data/MLMDNews_dataset folder in the model and then run the following command:
+1. Put the train, test, and val files in the MLMDS dataset into the data/MLMDNews_dataset folder in the model and then run the following command:
     ```bash
     python preprocess_data.py --task train
     python preprocess_data.py --task test
