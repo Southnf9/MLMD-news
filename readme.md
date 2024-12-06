@@ -12,8 +12,7 @@ Under review, will upload later
 
 ## Preprocess data
 Put the train, test, and val files in the MLMDS dataset into the data/MLMDNews_dataset folder in the model and then run the following command:
-    '''
-    bash
+    ```bash
     python preprocess_data.py --task train
     python preprocess_data.py --task test
     python preprocess_data.py --task val
@@ -21,7 +20,7 @@ Put the train, test, and val files in the MLMDS dataset into the data/MLMDNews_d
     python ./script/calw2sTFIDF.py --data_path ../data/MLMDNews/train.label.jsonl
     python ./script/calw2sTFIDF.py --data_path ../data/MLMDNews/test.label.jsonl
     python ./script/calw2sTFIDF.py --data_path ../data/MLMDNews/val.label.jsonl
-   '''
+   ```
 ## Get contextualized embeddings
     python feature_extraction.py  --data ./data/MLMDNews/train.label.jsonl
     python feature_extraction.py  --data ./data/MLMDNews/test.label.jsonl
