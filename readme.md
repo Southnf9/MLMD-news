@@ -26,6 +26,6 @@ Under review, will upload later
     python feature_extraction.py  --data ./data/MLMDNews/test.label.jsonl
     python feature_extraction.py  --data ./data/MLMDNews/val.label.jsonl
 
-
-
+## Training
+    python train.py
 
