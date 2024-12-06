@@ -1,10 +1,7 @@
+# MLMD-news
+
 Under review, will upload later
 
-# 项目名称
-
-简短的项目描述，介绍这个项目的目的和功能。
-
-![项目截图](path/to/your/screenshot.png)
 
 ## Dependency
 
