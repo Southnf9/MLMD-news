@@ -7,8 +7,6 @@ Under review, will upload later
 ![项目截图](path/to/your/screenshot.png)
 
 ## Dependency
-
-Install dependencies via:
     ```bash
     conda create -n ebeg python=3.9.6
     conda activate ebeg 
