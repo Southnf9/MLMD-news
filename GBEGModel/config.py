@@ -90,7 +90,7 @@ class Config(object):
         if self.oracle_train:
             self.hybrid_train = [False, True][1]
         self.oracle_test = [False, True][0]
-        self.loss_alpha = [0, 0.1, 0.5, 1, 5][2]
+        self.loss_alpha = [0, 0.1, 0.5, 1, 5][1]
         self.window_size = 0
         self.top_k = 10
         self.min_length = 350
