@@ -1,0 +1,2 @@
+The above is a multi-document article cluster. Each article is in a different language and is separated by the story_separator_special_tag separator. Please provide an English summary for this multi-document article cluster.
+    
