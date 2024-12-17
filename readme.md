@@ -1,6 +1,5 @@
 # MLMD-news
 ## Data
-Under review, the complete dataset will be uploaded later
 [Row_data](https://drive.google.com/drive/folders/1-UqZTsodW028USrFF09eSDk8ZP_UXmO3)(Documents in a document cluster are separated by "story_separator_special_tag")
 # GBEGModel
 ## Dependency
@@ -11,7 +10,7 @@ Under review, the complete dataset will be uploaded later
     pip install -r requirements.txt
 
 ## Preprocess data
-1. Put the train, test, and val files in the MLMDS dataset into the data/MLMDNews_dataset folder in the model and then run the following command:
+1. Put the train, test, and val files in the [MLMDS dataset](https://drive.google.com/drive/folders/1-UqZTsodW028USrFF09eSDk8ZP_UXmO3) into the data/MLMDNews_dataset folder in the model and then run the following command:
     ```bash
     python preprocess_data.py --task train
     python preprocess_data.py --task test
