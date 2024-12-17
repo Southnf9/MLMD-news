@@ -1,7 +1,7 @@
 # MLMD-news
-
+## Data
 Under review, the complete dataset will be uploaded later
-
+[Row_data](https://drive.google.com/drive/folders/1-UqZTsodW028USrFF09eSDk8ZP_UXmO3)(Documents in a document cluster are separated by "story_separator_special_tag")
 # GBEGModel
 ## Dependency
 
