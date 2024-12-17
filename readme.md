@@ -1,6 +1,6 @@
 # MLMD-news
 ## Data
-[Row_data](https://drive.google.com/drive/folders/1-UqZTsodW028USrFF09eSDk8ZP_UXmO3)(Documents in a document cluster are separated by "story_separator_special_tag")
+[Raw_data](https://drive.google.com/drive/folders/1-UqZTsodW028USrFF09eSDk8ZP_UXmO3)(Documents in a document cluster are separated by "story_separator_special_tag")
 # GBEGModel
 ## Dependency
 
